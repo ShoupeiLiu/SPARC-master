@@ -43,7 +43,7 @@ conda activate periodic\_denoise
 python -m visdom.server -port 8097
 
 **Datasets**
-A set of simulated calcium imaging data and the pre-trained model are available for download (14 Hz sampling rate; SNR = 5 dB, 10.5281/zenodo.19673550).
+A set of simulated calcium imaging data and the pre-trained model are available for download (14 Hz sampling rate; SNR = 5 dB, [10.5281/zenodo.19673550](https://zenodo.org/records/19673550)).
 
 For model training:
 
