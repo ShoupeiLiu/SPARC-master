@@ -44,11 +44,17 @@ python -m visdom.server -port 8097
 
 **Datasets**
 A set of simulated calcium imaging data and the pre-trained model are available for download (14 Hz sampling rate; SNR = 5 dB, 10.5281/zenodo.19673550).
+
 For model training:
+
 raw_iso.tif (128 × 512 × 1000) should be placed in the ./train/Input directory,
+
 and raw_iso_label.tif (512 × 512) should be placed in the ./train/Reference directory.
+
 For model inference:
+
 The pre-trained weight file E30_loss167.0068.pth should be placed in the ./pth/model directory,
+
 and the raw anisotropically sampled data raw_iso.tif should be placed in the ./test directory.
 
 **Important Notes**
